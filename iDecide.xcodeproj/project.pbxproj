@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0CACFFB13E87AAF001FA3A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CACFFA13E87AAF001FA3A1 /* UIKit.framework */; };
+		D0CACFFD13E87AAF001FA3A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CACFFC13E87AAF001FA3A1 /* Foundation.framework */; };
+		D0CACFFF13E87AAF001FA3A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CACFFE13E87AAF001FA3A1 /* CoreGraphics.framework */; };
+		D0CAD00513E87AAF001FA3A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD00313E87AAF001FA3A1 /* InfoPlist.strings */; };
+		D0CAD00713E87AAF001FA3A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CAD00613E87AAF001FA3A1 /* main.m */; };
+		D0CAD00B13E87AAF001FA3A1 /* iDecideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CAD00A13E87AAF001FA3A1 /* iDecideAppDelegate.m */; };
+		D0CAD00E13E87AAF001FA3A1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD00C13E87AAF001FA3A1 /* MainWindow.xib */; };
+		D0CAD01113E87AAF001FA3A1 /* iDecideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CAD01013E87AAF001FA3A1 /* iDecideViewController.m */; };
+		D0CAD01413E87AAF001FA3A1 /* iDecideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD01213E87AAF001FA3A1 /* iDecideViewController.xib */; };
+		D0CAD01C13E87AAF001FA3A1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CAD01B13E87AAF001FA3A1 /* SenTestingKit.framework */; };
+		D0CAD01D13E87AAF001FA3A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CACFFA13E87AAF001FA3A1 /* UIKit.framework */; };
+		D0CAD01E13E87AAF001FA3A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CACFFC13E87AAF001FA3A1 /* Foundation.framework */; };
+		D0CAD01F13E87AAF001FA3A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CACFFE13E87AAF001FA3A1 /* CoreGraphics.framework */; };
+		D0CAD02713E87AAF001FA3A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD02513E87AAF001FA3A1 /* InfoPlist.strings */; };
+		D0CAD02913E87AAF001FA3A1 /* iDecideTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD02813E87AAF001FA3A1 /* iDecideTests.h */; };
+		D0CAD02B13E87AAF001FA3A1 /* iDecideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CAD02A13E87AAF001FA3A1 /* iDecideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0CAD02013E87AAF001FA3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0CACFED13E87AAF001FA3A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CACFF513E87AAF001FA3A1;
+			remoteInfo = iDecide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0CACFF613E87AAF001FA3A1 /* iDecide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDecide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CACFFA13E87AAF001FA3A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0CACFFC13E87AAF001FA3A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0CACFFE13E87AAF001FA3A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0CAD00213E87AAF001FA3A1 /* iDecide-Info.plist */ = {isa = PBXFileReference; path = "iDecide-Info.plist"; sourceTree = "<group>"; };
+		D0CAD00413E87AAF001FA3A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0CAD00613E87AAF001FA3A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0CAD00813E87AAF001FA3A1 /* iDecide-Prefix.pch */ = {isa = PBXFileReference; path = "iDecide-Prefix.pch"; sourceTree = "<group>"; };
+		D0CAD00913E87AAF001FA3A1 /* iDecideAppDelegate.h */ = {isa = PBXFileReference; path = iDecideAppDelegate.h; sourceTree = "<group>"; };
+		D0CAD00A13E87AAF001FA3A1 /* iDecideAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDecideAppDelegate.m; sourceTree = "<group>"; };
+		D0CAD00D13E87AAF001FA3A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D0CAD00F13E87AAF001FA3A1 /* iDecideViewController.h */ = {isa = PBXFileReference; path = iDecideViewController.h; sourceTree = "<group>"; };
+		D0CAD01013E87AAF001FA3A1 /* iDecideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDecideViewController.m; sourceTree = "<group>"; };
+		D0CAD01313E87AAF001FA3A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iDecideViewController.xib; sourceTree = "<group>"; };
+		D0CAD01A13E87AAF001FA3A1 /* iDecideTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDecideTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CAD01B13E87AAF001FA3A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0CAD02413E87AAF001FA3A1 /* iDecideTests-Info.plist */ = {isa = PBXFileReference; path = "iDecideTests-Info.plist"; sourceTree = "<group>"; };
+		D0CAD02613E87AAF001FA3A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0CAD02813E87AAF001FA3A1 /* iDecideTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDecideTests.h; sourceTree = "<group>"; };
+		D0CAD02A13E87AAF001FA3A1 /* iDecideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDecideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0CACFF313E87AAF001FA3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CACFFB13E87AAF001FA3A1 /* UIKit.framework in Frameworks */,
+				D0CACFFD13E87AAF001FA3A1 /* Foundation.framework in Frameworks */,
+				D0CACFFF13E87AAF001FA3A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAD01613E87AAF001FA3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAD01C13E87AAF001FA3A1 /* SenTestingKit.framework in Frameworks */,
+				D0CAD01D13E87AAF001FA3A1 /* UIKit.framework in Frameworks */,
+				D0CAD01E13E87AAF001FA3A1 /* Foundation.framework in Frameworks */,
+				D0CAD01F13E87AAF001FA3A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0CACFEB13E87AAF001FA3A1 = {
+			isa = PBXGroup;
+			children = (
+				D0CAD00013E87AAF001FA3A1 /* iDecide */,
+				D0CAD02213E87AAF001FA3A1 /* iDecideTests */,
+				D0CACFF913E87AAF001FA3A1 /* Frameworks */,
+				D0CACFF713E87AAF001FA3A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0CACFF713E87AAF001FA3A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0CACFF613E87AAF001FA3A1 /* iDecide.app */,
+				D0CAD01A13E87AAF001FA3A1 /* iDecideTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0CACFF913E87AAF001FA3A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0CACFFA13E87AAF001FA3A1 /* UIKit.framework */,
+				D0CACFFC13E87AAF001FA3A1 /* Foundation.framework */,
+				D0CACFFE13E87AAF001FA3A1 /* CoreGraphics.framework */,
+				D0CAD01B13E87AAF001FA3A1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0CAD00013E87AAF001FA3A1 /* iDecide */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAD00913E87AAF001FA3A1 /* iDecideAppDelegate.h */,
+				D0CAD00A13E87AAF001FA3A1 /* iDecideAppDelegate.m */,
+				D0CAD00C13E87AAF001FA3A1 /* MainWindow.xib */,
+				D0CAD00F13E87AAF001FA3A1 /* iDecideViewController.h */,
+				D0CAD01013E87AAF001FA3A1 /* iDecideViewController.m */,
+				D0CAD01213E87AAF001FA3A1 /* iDecideViewController.xib */,
+				D0CAD00113E87AAF001FA3A1 /* Supporting Files */,
+			);
+			path = iDecide;
+			sourceTree = "<group>";
+		};
+		D0CAD00113E87AAF001FA3A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAD00213E87AAF001FA3A1 /* iDecide-Info.plist */,
+				D0CAD00313E87AAF001FA3A1 /* InfoPlist.strings */,
+				D0CAD00613E87AAF001FA3A1 /* main.m */,
+				D0CAD00813E87AAF001FA3A1 /* iDecide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0CAD02213E87AAF001FA3A1 /* iDecideTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAD02813E87AAF001FA3A1 /* iDecideTests.h */,
+				D0CAD02A13E87AAF001FA3A1 /* iDecideTests.m */,
+				D0CAD02313E87AAF001FA3A1 /* Supporting Files */,
+			);
+			path = iDecideTests;
+			sourceTree = "<group>";
+		};
+		D0CAD02313E87AAF001FA3A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAD02413E87AAF001FA3A1 /* iDecideTests-Info.plist */,
+				D0CAD02513E87AAF001FA3A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0CACFF513E87AAF001FA3A1 /* iDecide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CAD02E13E87AAF001FA3A1 /* Build configuration list for PBXNativeTarget "iDecide" */;
+			buildPhases = (
+				D0CACFF213E87AAF001FA3A1 /* Sources */,
+				D0CACFF313E87AAF001FA3A1 /* Frameworks */,
+				D0CACFF413E87AAF001FA3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDecide;
+			productName = iDecide;
+			productReference = D0CACFF613E87AAF001FA3A1 /* iDecide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0CAD01913E87AAF001FA3A1 /* iDecideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CAD03113E87AAF001FA3A1 /* Build configuration list for PBXNativeTarget "iDecideTests" */;
+			buildPhases = (
+				D0CAD01513E87AAF001FA3A1 /* Sources */,
+				D0CAD01613E87AAF001FA3A1 /* Frameworks */,
+				D0CAD01713E87AAF001FA3A1 /* Resources */,
+				D0CAD01813E87AAF001FA3A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0CAD02113E87AAF001FA3A1 /* PBXTargetDependency */,
+			);
+			name = iDecideTests;
+			productName = iDecideTests;
+			productReference = D0CAD01A13E87AAF001FA3A1 /* iDecideTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0CACFED13E87AAF001FA3A1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D0CACFF013E87AAF001FA3A1 /* Build configuration list for PBXProject "iDecide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0CACFEB13E87AAF001FA3A1;
+			productRefGroup = D0CACFF713E87AAF001FA3A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0CACFF513E87AAF001FA3A1 /* iDecide */,
+				D0CAD01913E87AAF001FA3A1 /* iDecideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0CACFF413E87AAF001FA3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAD00513E87AAF001FA3A1 /* InfoPlist.strings in Resources */,
+				D0CAD00E13E87AAF001FA3A1 /* MainWindow.xib in Resources */,
+				D0CAD01413E87AAF001FA3A1 /* iDecideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAD01713E87AAF001FA3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAD02713E87AAF001FA3A1 /* InfoPlist.strings in Resources */,
+				D0CAD02913E87AAF001FA3A1 /* iDecideTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0CAD01813E87AAF001FA3A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0CACFF213E87AAF001FA3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAD00713E87AAF001FA3A1 /* main.m in Sources */,
+				D0CAD00B13E87AAF001FA3A1 /* iDecideAppDelegate.m in Sources */,
+				D0CAD01113E87AAF001FA3A1 /* iDecideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAD01513E87AAF001FA3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAD02B13E87AAF001FA3A1 /* iDecideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0CAD02113E87AAF001FA3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0CACFF513E87AAF001FA3A1 /* iDecide */;
+			targetProxy = D0CAD02013E87AAF001FA3A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0CAD00313E87AAF001FA3A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CAD00413E87AAF001FA3A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0CAD00C13E87AAF001FA3A1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CAD00D13E87AAF001FA3A1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D0CAD01213E87AAF001FA3A1 /* iDecideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CAD01313E87AAF001FA3A1 /* en */,
+			);
+			name = iDecideViewController.xib;
+			sourceTree = "<group>";
+		};
+		D0CAD02513E87AAF001FA3A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CAD02613E87AAF001FA3A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0CAD02C13E87AAF001FA3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0CAD02D13E87AAF001FA3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0CAD02F13E87AAF001FA3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecide/iDecide-Prefix.pch";
+				INFOPLIST_FILE = "iDecide/iDecide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0CAD03013E87AAF001FA3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecide/iDecide-Prefix.pch";
+				INFOPLIST_FILE = "iDecide/iDecide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0CAD03213E87AAF001FA3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iDecide.app/iDecide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecide/iDecide-Prefix.pch";
+				INFOPLIST_FILE = "iDecideTests/iDecideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D0CAD03313E87AAF001FA3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iDecide.app/iDecide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDecide/iDecide-Prefix.pch";
+				INFOPLIST_FILE = "iDecideTests/iDecideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0CACFF013E87AAF001FA3A1 /* Build configuration list for PBXProject "iDecide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CAD02C13E87AAF001FA3A1 /* Debug */,
+				D0CAD02D13E87AAF001FA3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CAD02E13E87AAF001FA3A1 /* Build configuration list for PBXNativeTarget "iDecide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CAD02F13E87AAF001FA3A1 /* Debug */,
+				D0CAD03013E87AAF001FA3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0CAD03113E87AAF001FA3A1 /* Build configuration list for PBXNativeTarget "iDecideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CAD03213E87AAF001FA3A1 /* Debug */,
+				D0CAD03313E87AAF001FA3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0CACFED13E87AAF001FA3A1 /* Project object */;
+}

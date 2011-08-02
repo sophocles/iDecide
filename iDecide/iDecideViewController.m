@@ -10,6 +10,8 @@
 
 @implementation iDecideViewController
 
+@synthesize decisionText;
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
@@ -30,6 +32,7 @@
 
 - (void)viewDidUnload
 {
+    [self setDecisionText:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -41,4 +44,12 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)buttonPressed:(id)sender {
+    decisionText.text = @"Go for it!";
+}
+
+- (void)dealloc {
+    [decisionText release];
+    [super dealloc];
+}
 @end

@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iDecideViewController : UIViewController
+@interface iDecideViewController : UIViewController {
+    UILabel *decisionText;
+}
+
+@property (nonatomic, retain) IBOutlet UILabel *decisionText;
+
+- (IBAction)buttonPressed:(id)sender;
 
 @end
